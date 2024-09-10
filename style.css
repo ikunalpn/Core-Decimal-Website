@@ -326,7 +326,7 @@ nav img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 45px;
 }
 .service-text{
     display: flex;
@@ -539,6 +539,9 @@ nav img{
     color: var(--text-color2);
     font-size: larger;
     padding-bottom: 30px;
+}
+.contact-text{
+    margin: 20px;
 }
 .contact-cards{
     display: flex;

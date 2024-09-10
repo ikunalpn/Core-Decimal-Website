@@ -20,6 +20,7 @@
     height: 20px;
     background-color: #EAE0C8;
     padding: 5px 5px;
+    padding-right: 88px;
 }
 .head-text svg{
     height: 10px;
@@ -620,6 +621,7 @@ footer{
     }
     .head-text{
         justify-content: center;
+        padding-right: 0px;
     }
     .right-nav{
         margin-right: 0px;

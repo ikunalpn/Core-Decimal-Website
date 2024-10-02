@@ -47,9 +47,10 @@ body{
 }
 nav img{
     height: 40px;
-    width: 190px;
+    width: 210px;
     margin: 10px;
     margin-left: 50px;
+    object-fit: cover;
 }
 .right-nav {
     display: flex;
@@ -93,7 +94,7 @@ nav img{
 }
 .sidebar-logo img{
     height: 40px;
-    width: 190px;
+    width: 210px;
     margin: 10px;
     margin-left: 50px;
 }
@@ -149,6 +150,7 @@ nav img{
 .main img{
     height: 550px;
     width: 100%;
+    object-fit: cover;
 }
 .main-text{
     display: flex;
@@ -200,6 +202,7 @@ nav img{
     animation: typing 3.5s steps(40, end) 1s infinite  both,
             typing2 3.5s steps(40, end) 1s infinite reverse both,
             blink-caret 0.75s step-end infinite;
+    
 }
 
 @keyframes typing2 {
@@ -260,11 +263,13 @@ nav img{
     opacity: 0;
     transform: translateX(-100%);
     animation: slide-in-right 3s ease forwards;
+    animation-timeline: view();
 }
 .aleft2Box img{
     opacity: 0;
     transform: translateX(-100%);
     animation: slide-in-right 3s ease forwards;
+    animation-timeline: view();
 }
 .aleft2Box{
     display: flex;
@@ -327,6 +332,7 @@ nav img{
 .numStrip img{
     width: 100%;
     margin-top: 30px;
+    object-fit: cover;
 }
 
 .services {
@@ -375,6 +381,7 @@ nav img{
     align-items: center;
     transform: translateX(-100%);
     animation: slide-in-right 1.5s ease forwards;
+    animation-timeline: view();
 }
 .left-service h3{
     font-size: xx-large;
@@ -396,6 +403,7 @@ nav img{
     align-items: center;
     transform: translateX(-100%);
     animation: slide-in-right 1.5s ease forwards;
+    animation-timeline: view();
 }
 @keyframes slide-in-right {
     to {
@@ -434,6 +442,7 @@ nav img{
     text-align: center;
     transform: translateX(100%);
     animation: slide-in-left 1.5s ease forwards;
+    animation-timeline: view();
 }
 
 .r1-s svg{
@@ -455,6 +464,7 @@ nav img{
     align-items: center;
     transform: translateX(100%);
     animation: slide-in-left 1.5s ease forwards;
+    animation-timeline: view();
 }
 @keyframes slide-in-left {
     to {
